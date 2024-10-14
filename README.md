@@ -17,57 +17,71 @@ Antes de ejecutar la API, asegúrate de tener instalado lo siguiente:
 
    ```bash
    git clone https://github.com/OTSUGUA14/Parcial-mutantes.git
-#
-API de Detección de Mutantes
-Esta API permite verificar si un conjunto de ADN pertenece a un humano mutante. Está diseñada para manejar solicitudes de verificación de ADN y devolver estadísticas sobre las verificaciones realizadas.
 
-Requisitos Previos
+#API de Detección de Mutantes
+## Requisitos Previos
+
 Antes de ejecutar la API, asegúrate de tener instalado lo siguiente:
 
-Java JDK 17 o superior
-Gradle (versión 7.0 o superior)
-Base de datos H2
-Configuración del Proyecto
-Clonar el repositorio:
+- **Java JDK 17** o superior
+- **Gradle** (versión 7.0 o superior)
+- **Base de datos H2**
+  
+## Configuración del Proyecto
 
-git clone https://github.com/OTSUGUA14/Parcial-mutantes.git
+1. **Clonar el repositorio:**
 
-Navegar al directorio del proyecto:
+   ```bash
+   git clone https://github.com/OTSUGUA14/Parcial-mutantes.git
 
-cd Parcial-mutantes
 
-Construir el proyecto con Gradle:
 
-./gradlew build
+2.**Navegar al directorio del proyecto:**
 
-Ejecución de la API
-Iniciar el servidor:
+``
+      cd Parcial-mutantes``
 
-./gradlew bootRun
+3.**Construir el proyecto con Gradle:**
 
-La API estará disponible en http://localhost:8080.
+``./gradlew build``
 
-Probar la API:
+
+4.**Ejecución de la API**
+- Iniciar el servidor:
+
+``./gradlew bootRun``
+o
+``correrlo desde aplication (run)``
+
+**La API estará disponible en**
+`` http://localhost:8080``.
+**o en cloud computing (google cloud)**
+``https://mutantdetectionapi.appspot.com/mutant/mutants``
+
+- Probar la API:
 
 Puedes probar la API utilizando herramientas como Postman o curl. A continuación se muestra un ejemplo de cómo enviar una solicitud POST para verificar un ADN:
 
-curl -X POST http://localhost:8080/mutant -H "Content-Type: application/json" -d '{ "dna": ["ATGCGA", "CAGTGC", "TTATGT", "AGATGG", "TCACTA", "TCACTG"] }'
+POST http://localhost:8080/mutant '{ "dna": ["ATGCGA", "CAGTGC", "TTATGT", "AGATGG", "TCACTA", "TCACTG"] }'
 
 Respuesta esperada:
 
 { "mutant": true }
 
-Acceder a las estadísticas:
+-Acceder a las estadísticas:
 
 Para obtener estadísticas sobre las verificaciones de ADN, envía una solicitud GET a la siguiente URL:
 
-curl -X GET http://localhost:8080/stats
+GET`` http://localhost:8080/mutant/stats``
+o
+GET ``*https://mutantdetectionapi.appspot.com/mutant//stats``
+
 
 Respuesta esperada:
 
 { "count_mutant_dna": 40, "count_human_dna": 100, "ratio": 0.4 }
 
-Pruebas
-Para ejecutar los tests automáticos y asegurarte de que la cobertura de código es superior al 80%, puedes usar el siguiente comando:
+-*Pruebas*
+*Para ejecutar los tests automáticos y asegurarte de que la cobertura de código es superior al 80%, puedes usar el siguiente comando:*
 
-./gradlew test
+``./gradlew test``
