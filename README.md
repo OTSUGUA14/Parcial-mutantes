@@ -70,7 +70,7 @@ Respuesta esperada:
 - *Pruebas*
 *Para ejecutar los tests automáticos y asegurarte de que la cobertura de código es superior al 80%, puedes usar el siguiente comando:*
 
-``./Guardar motantes en h2I**
+6.**Guardar mutantes en h2**
 - ##PARA QUE SE GUARDE EL MUTANTE EN H2 SE TIENE QUE HACER DE MANERA LOCAL(una ves ya iniciada la app)
 ``http://localhost:8080/mutant/mutants``
 - ##En el h2 van estos datos:
