@@ -71,9 +71,9 @@ Respuesta esperada:
 
 ``./gradlew test``
 
-##PARA QUE SE GUARDE EL MUTANTE EN H2 SE TIENE QUE HACER DE MANERA LOCAL(una ves ya iniciada la app)
+-##PARA QUE SE GUARDE EL MUTANTE EN H2 SE TIENE QUE HACER DE MANERA LOCAL(una ves ya iniciada la app)
 ``http://localhost:8080/mutant/mutants``
-##En el h2 van estos datos:
+-##En el h2 van estos datos:
 JDBC URL: jdbc:h2:mem:testdb
 User Name: augusto
 Password: (dejar en blanco)
