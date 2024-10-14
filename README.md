@@ -75,5 +75,7 @@ Respuesta esperada:
 ``http://localhost:8080/mutant/mutants``
 - ##En el h2 van estos datos:
 JDBC URL: jdbc:h2:mem:testdb
+
 User Name: augusto
+
 Password: (dejar en blanco)
