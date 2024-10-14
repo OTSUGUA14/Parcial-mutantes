@@ -36,8 +36,11 @@ o
 ``correrlo desde aplication (run)``
 
 **La API estará disponible en**
+
 `` http://localhost:8080/mutant/mutants``.
+
 **o en cloud computing (google cloud)**
+
 ``https://mutantdetectionapi.appspot.com/mutant/mutants``
 
 - *Probar la API:*
@@ -68,5 +71,9 @@ Respuesta esperada:
 
 ``./gradlew test``
 
-##PARA QUE SE GUARDE EL MUTANTE EN H2 SE TIENE QUE HACER DE MANERA LOCAL
+##PARA QUE SE GUARDE EL MUTANTE EN H2 SE TIENE QUE HACER DE MANERA LOCAL(una ves ya iniciada la app)
 ``http://localhost:8080/mutant/mutants``
+##En el h2 van estos datos:
+JDBC URL: jdbc:h2:mem:testdb
+User Name: augusto
+Password: (dejar en blanco)
