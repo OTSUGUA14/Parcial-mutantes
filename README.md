@@ -43,7 +43,8 @@ o
 
 ``https://mutantdetectionapi.appspot.com/mutant/mutants``(en el 
 
- *-Probar la API:*
+
+5.**Pruebas de la API**
 
 *Puedes probar la API utilizando herramientas como Postman o curl. A continuación se muestra un ejemplo de cómo enviar una solicitud POST para verificar un ADN:*
 
@@ -53,7 +54,7 @@ Respuesta esperada:
 
 { "mutant": true }
 
-*-Acceder a las estadísticas:*
+- *Acceder a las estadísticas:*
 
 *Para obtener estadísticas sobre las verificaciones de ADN, envía una solicitud GET a la siguiente URL:*
 
@@ -66,14 +67,13 @@ Respuesta esperada:
 
 { "count_mutant_dna": 40, "count_human_dna": 100, "ratio": 0.4 }
 
-*-Pruebas*
+- *Pruebas*
 *Para ejecutar los tests automáticos y asegurarte de que la cobertura de código es superior al 80%, puedes usar el siguiente comando:*
 
-``./gradlew test``
-
-##-PARA QUE SE GUARDE EL MUTANTE EN H2 SE TIENE QUE HACER DE MANERA LOCAL(una ves ya iniciada la app)
+``./Guardar motantes en h2I**
+- ##PARA QUE SE GUARDE EL MUTANTE EN H2 SE TIENE QUE HACER DE MANERA LOCAL(una ves ya iniciada la app)
 ``http://localhost:8080/mutant/mutants``
-##-En el h2 van estos datos:
+- ##En el h2 van estos datos:
 JDBC URL: jdbc:h2:mem:testdb
 User Name: augusto
 Password: (dejar en blanco)
