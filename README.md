@@ -41,7 +41,7 @@ o
 
 **o en cloud computing (google cloud)**
 
-``https://mutantdetectionapi.appspot.com/mutant/mutants``
+``https://mutantdetectionapi.appspot.com/mutant/mutants``(en el 
 
 - *Probar la API:*
 
@@ -59,7 +59,7 @@ Respuesta esperada:
 
 GET`` http://localhost:8080/mutant/stats``
 o
-GET ``*https://mutantdetectionapi.appspot.com/mutant//stats``
+GET ``*https://mutantdetectionapi.appspot.com/mutant/stats``
 
 
 Respuesta esperada:
