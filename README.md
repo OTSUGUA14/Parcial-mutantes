@@ -18,24 +18,6 @@ Antes de ejecutar la API, asegúrate de tener instalado lo siguiente:
    ```bash
    git clone https://github.com/OTSUGUA14/Parcial-mutantes.git
 
-
-## Requisitos Previos
-
-Antes de ejecutar la API, asegúrate de tener instalado lo siguiente:
-
-- **Java JDK 17** o superior
-- **Gradle** (versión 7.0 o superior)
-- **Base de datos H2**
-  
-## Configuración del Proyecto
-
-1. **Clonar el repositorio:**
-
-   ```bash
-   git clone https://github.com/OTSUGUA14/Parcial-mutantes.git
-
-
-
 2.**Navegar al directorio del proyecto:**
 
 ``
@@ -54,7 +36,7 @@ o
 ``correrlo desde aplication (run)``
 
 **La API estará disponible en**
-`` http://localhost:8080``.
+`` http://localhost:8080/mutant/mutants``.
 **o en cloud computing (google cloud)**
 ``https://mutantdetectionapi.appspot.com/mutant/mutants``
 
@@ -85,3 +67,6 @@ Respuesta esperada:
 *Para ejecutar los tests automáticos y asegurarte de que la cobertura de código es superior al 80%, puedes usar el siguiente comando:*
 
 ``./gradlew test``
+
+##PARA QUE SE GUARDE EL MUTANTE EN H2 SE TIENE QUE HACER DE MANERA LOCAL
+``http://localhost:8080/mutant/mutants``
