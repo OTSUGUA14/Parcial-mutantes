@@ -18,7 +18,7 @@ Antes de ejecutar la API, asegúrate de tener instalado lo siguiente:
    ```bash
    git clone https://github.com/OTSUGUA14/Parcial-mutantes.git
 
-#API de Detección de Mutantes
+
 ## Requisitos Previos
 
 Antes de ejecutar la API, asegúrate de tener instalado lo siguiente:
