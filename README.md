@@ -58,9 +58,9 @@ o
 **o en cloud computing (google cloud)**
 ``https://mutantdetectionapi.appspot.com/mutant/mutants``
 
-- Probar la API:
+- *Probar la API:*
 
-Puedes probar la API utilizando herramientas como Postman o curl. A continuación se muestra un ejemplo de cómo enviar una solicitud POST para verificar un ADN:
+*Puedes probar la API utilizando herramientas como Postman o curl. A continuación se muestra un ejemplo de cómo enviar una solicitud POST para verificar un ADN:*
 
 POST http://localhost:8080/mutant '{ "dna": ["ATGCGA", "CAGTGC", "TTATGT", "AGATGG", "TCACTA", "TCACTG"] }'
 
@@ -68,9 +68,9 @@ Respuesta esperada:
 
 { "mutant": true }
 
--Acceder a las estadísticas:
+-*Acceder a las estadísticas:*
 
-Para obtener estadísticas sobre las verificaciones de ADN, envía una solicitud GET a la siguiente URL:
+*Para obtener estadísticas sobre las verificaciones de ADN, envía una solicitud GET a la siguiente URL:*
 
 GET`` http://localhost:8080/mutant/stats``
 o
