@@ -37,9 +37,9 @@ o
 
 `` http://localhost:8080/mutant/mutants``.
 
-**o en cloud computing (google cloud)**
+**o (api hosteada)**
 
-``https://mutantdetectionapi.appspot.com/mutant/mutants``(en el 
+``https://mutantdetectionapi.appspot.com/mutant/mutants``
 
 
 5.**Pruebas de la API**
