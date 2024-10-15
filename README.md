@@ -1,8 +1,6 @@
 # Parcial-mutantes
 # API de Detección de Mutantes
 
-Esta API permite verificar si un conjunto de ADN pertenece a un humano mutante. La API está diseñada para manejar solicitudes de verificación de ADN y devolver estadísticas sobre las verificaciones realizadas.
-
 ## Requisitos Previos
 
 Antes de ejecutar la API, asegúrate de tener instalado lo siguiente:
